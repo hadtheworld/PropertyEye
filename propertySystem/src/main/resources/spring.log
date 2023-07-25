@@ -1,0 +1,45 @@
+2023-07-25T23:12:34.149+05:30 INFO  --- [           main] c.p.p.PropertyEyeApplication : Starting PropertyEyeApplication using Java 17.0.7 with PID 14028 (D:\propertySystem\target\classes started by HP in D:\propertySystem)
+2023-07-25T23:12:34.169+05:30 INFO  --- [           main] c.p.p.PropertyEyeApplication : No active profile set, falling back to 1 default profile: "default"
+2023-07-25T23:12:36.016+05:30 INFO  --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-25T23:12:36.141+05:30 INFO  --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 3 JPA repository interfaces.
+2023-07-25T23:12:37.294+05:30 INFO  --- [           main] o.s.b.w.e.t.TomcatWebServer : Tomcat initialized with port(s): 8081 (http)
+2023-07-25T23:12:37.322+05:30 INFO  --- [           main] o.a.c.core.StandardService : Starting service [Tomcat]
+2023-07-25T23:12:37.323+05:30 INFO  --- [           main] o.a.c.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-25T23:12:37.595+05:30 INFO  --- [           main] o.a.c.c.C.[.[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-07-25T23:12:37.598+05:30 INFO  --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3299 ms
+2023-07-25T23:12:37.895+05:30 INFO  --- [           main] o.h.j.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-25T23:12:38.020+05:30 INFO  --- [           main] org.hibernate.Version : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-25T23:12:38.029+05:30 INFO  --- [           main] org.hibernate.cfg.Environment : HHH000406: Using bytecode reflection optimizer
+2023-07-25T23:12:38.273+05:30 INFO  --- [           main] o.h.b.i.BytecodeProviderInitiator : HHH000021: Bytecode provider name : bytebuddy
+2023-07-25T23:12:38.677+05:30 INFO  --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-25T23:12:38.716+05:30 INFO  --- [           main] c.z.hikari.HikariDataSource : HikariPool-1 - Starting...
+2023-07-25T23:12:39.572+05:30 INFO  --- [           main] c.z.hikari.pool.HikariPool : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2729bb71
+2023-07-25T23:12:39.578+05:30 INFO  --- [           main] c.z.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2023-07-25T23:12:39.748+05:30 INFO  --- [           main] org.hibernate.orm.dialect : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+2023-07-25T23:12:39.764+05:30 WARN  --- [           main] org.hibernate.orm.deprecation : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-07-25T23:12:40.253+05:30 INFO  --- [           main] o.h.b.i.BytecodeProviderInitiator : HHH000021: Bytecode provider name : bytebuddy
+2023-07-25T23:12:41.264+05:30 INFO  --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-25T23:12:41.612+05:30 INFO  --- [           main] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-25T23:12:42.348+05:30 INFO  --- [           main] o.s.d.j.r.q.QueryEnhancerFactory : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-07-25T23:12:43.174+05:30 WARN  --- [           main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-25T23:12:45.756+05:30 INFO  --- [           main] o.s.b.w.e.t.TomcatWebServer : Tomcat started on port(s): 8081 (http) with context path ''
+2023-07-25T23:12:45.773+05:30 INFO  --- [           main] c.p.p.PropertyEyeApplication : Started PropertyEyeApplication in 12.464 seconds (process running for 13.347)
+2023-07-25T23:13:49.472+05:30 INFO  --- [nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-25T23:13:49.473+05:30 INFO  --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-07-25T23:13:49.479+05:30 INFO  --- [nio-8081-exec-1] o.s.w.s.DispatcherServlet : Completed initialization in 5 ms
+2023-07-25T23:13:49.608+05:30 INFO  --- [nio-8081-exec-1] c.p.p.c.LoginController : getAllProperty is called
+2023-07-25T23:13:49.614+05:30 INFO  --- [nio-8081-exec-1] c.p.p.service.PropertyService : getAllProeperties() is called
+2023-07-25T23:13:49.877+05:30 WARN  --- [nio-8081-exec-1] c.p.p.service.PropertyService :  EmptyOutputException
+2023-07-25T23:13:49.878+05:30 TRACE --- [nio-8081-exec-1] c.p.p.service.PropertyService : occured in getAllProeperties() function
+2023-07-25T23:13:50.005+05:30 INFO  --- [nio-8081-exec-2] c.p.p.c.LoginController : getAllProperty is called
+2023-07-25T23:13:50.005+05:30 INFO  --- [nio-8081-exec-2] c.p.p.service.PropertyService : getAllProeperties() is called
+2023-07-25T23:13:50.014+05:30 WARN  --- [nio-8081-exec-2] c.p.p.service.PropertyService :  EmptyOutputException
+2023-07-25T23:13:50.014+05:30 TRACE --- [nio-8081-exec-2] c.p.p.service.PropertyService : occured in getAllProeperties() function
+2023-07-25T23:13:58.173+05:30 INFO  --- [nio-8081-exec-5] c.p.p.c.LoginController : getAllProperty is called
+2023-07-25T23:13:58.175+05:30 INFO  --- [nio-8081-exec-5] c.p.p.service.PropertyService : getAllProeperties() is called
+2023-07-25T23:13:58.183+05:30 WARN  --- [nio-8081-exec-5] c.p.p.service.PropertyService :  EmptyOutputException
+2023-07-25T23:13:58.183+05:30 TRACE --- [nio-8081-exec-5] c.p.p.service.PropertyService : occured in getAllProeperties() function
+2023-07-25T23:13:58.192+05:30 INFO  --- [nio-8081-exec-6] c.p.p.c.LoginController : getAllProperty is called
+2023-07-25T23:13:58.192+05:30 INFO  --- [nio-8081-exec-6] c.p.p.service.PropertyService : getAllProeperties() is called
+2023-07-25T23:13:58.199+05:30 WARN  --- [nio-8081-exec-6] c.p.p.service.PropertyService :  EmptyOutputException
+2023-07-25T23:13:58.199+05:30 TRACE --- [nio-8081-exec-6] c.p.p.service.PropertyService : occured in getAllProeperties() function

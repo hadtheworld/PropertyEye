@@ -1,0 +1,93 @@
+swagger: http://localhost:8081/swagger-ui/index.html#/
+
+product
+{
+"propName":"home",
+"propDescription":"good home",
+"propLocation":"Noida"
+}
+{
+"propName": "rastogi residency",
+"propDescription": "For sale A charming 3BHK home located in Noida Uttar Pradesh India This spacious home boasts a total area of 500 square feet offering ample room for comfortable living With its well designed layout it provides a perfect blend of functionality and aesthetics Whether you are looking for a cozy retreat or a place to accommodate your growing family this property offers a great opportunity to settle down in a desirable location Don not miss out on this wonderful home in Noida UP India",
+"propLocation": "Noida Uttar Pradesh India"
+}
+
+seller
+{
+        "sellerName": "Tushar Gupta",
+        "sellerEmail": "guptatushar636@gmail.com",
+        "sellerPassword": "gupta123",
+        "sellerPhone": 998876854,
+        "sellerAddress": "Noida, Uttar Pradesh"
+}
+
+{
+        "sellerName": "karishma Gupta",
+        "sellerEmail": "guptatushar636@gmail.com",
+        "sellerPassword": "a123",
+        "sellerPhone": 998976854,
+        "sellerAddress": "Faridabad, Uttar Pradesh"
+}
+
+
+buyer
+{
+    "userName": "janhavi Gupta",
+    "userEmail": "guptajanhavi636@gmail.com",
+    "userPassword": "gudia123",
+    "userPhone": 998876854,
+    "userAddress": "Noida, Uttar Pradesh",
+    "userType": true
+}
+
+"options":{
+      "allowedHosts":["localhost",".localhost"],
+      "proxy": "http://localhost:8081"
+    }
+
+
+package.json
+{
+  "name": "propertyeye",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "options":{
+    "allowedHosts":["localhost",".localhost"],
+    "proxy": "http://localhost:8081"
+  }
+}
